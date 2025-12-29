@@ -453,8 +453,8 @@ section {
     background-color: transparent;
     color: #3F3A3A;
     border: none;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     cursor: pointer;
     font-size: 30px;
@@ -466,20 +466,20 @@ section {
     user-select: none;
 }
 
-.section-4-carousel-btn:hover {
+/* .section-4-carousel-btn:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
 .section-4-carousel-btn:active {
     background-color: rgba(0, 0, 0, 0.4);
-}
+} */
 
 .section-4-carousel-btn-prev {
-    left: 10px;
+    left: -5px;
 }
 
 .section-4-carousel-btn-next {
-    right: 10px;
+    right: -5px;
 }
 
 .section-5 {
@@ -736,19 +736,6 @@ section {
     margin-bottom: 28px;
 }
 
-.section-9-content {
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 335px;
-    height: 52px;
-    background-color:#3185BC;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-}
 
 .section-9-content {
     position: absolute;
@@ -761,7 +748,8 @@ section {
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     border: none;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     transition: all 0.3s ease;
 }
 
@@ -779,9 +767,10 @@ section {
 }
 
 .section-9-content-1 {
+    display: inline-block;
     font-weight:800;
     font-size: 24px;
-    line-height: 50px;
+    line-height: 51px;
     letter-spacing: 1.5px;
     color: #fff;
     border: none;
@@ -790,6 +779,7 @@ section {
 .section-9-content-2 {
     display: inline-block;
     margin-left: 10px;
+    margin-top: 19px;
     width: 12px;
     height: 15px;
 }
