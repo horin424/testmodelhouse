@@ -490,7 +490,7 @@ section {
 }
 
 .section-5-image {
-    margin-left: 20px;
+    margin-left: 17px;
     margin-top: -15px;
     width: 356.58px;
     height: 166.88px;
@@ -514,14 +514,13 @@ section {
     background-color: #fff;
     width: 100%;
     height: 100%;
-    padding: 0px 40px 0px 40px;
+    padding: 0px 0px 0px 0px;
     position: relative;
 }
 
 .section-6-carousel {
+    margin: 0px 40px 0px 40px;
     position: relative;
-    width: 100%;
-    overflow: hidden;
     user-select: none;
 }
 
@@ -560,12 +559,40 @@ section {
     pointer-events: none;
 }
 
+.section-6-carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-85%);
+    background-color: transparent;
+    color: #3F3A3A;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+.section-6-carousel-btn-prev {
+    left: -33px;
+}
+
+.section-6-carousel-btn-next {
+    right: -33px;
+}
+
 .section-6-content {
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 1px;
     color: #3F3A3A;
-    margin: 2px -22px 26.5px auto;
+    margin: 2px 17px 26.5px auto;
     text-align: right;
     font-family: Hiragino Kaku Gothic ProN;
 }
@@ -1220,7 +1247,7 @@ section {
 .section-12-checkbox:checked {
     background-color: #9E8000;
     border-color: #9E8000;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='white' d='M10 3L4.5 8.5L2 6' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M2 6l3 3 5-6'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1232,7 +1259,7 @@ section {
     background-color: #318BBC;
     border: none;
     border-radius: 6px;
-    padding: 8px 20px;
+    padding: 8px 20px 9px 21px;
     color: #FFFFFF;
     font-size: 24px;
     font-weight: 700;
@@ -1240,8 +1267,8 @@ section {
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 8px;
+    justify-content: center;
+    gap: 6px;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: sans-serif;
     transition: all 0.3s ease;

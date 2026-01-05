@@ -41,9 +41,9 @@
         </section>
         <section class="section-2">  
             <img src="Img/3.png" alt="section-2-image" class="section-2-image" width="100%">
-            <div class="section-2-content">
+            <!-- <div class="section-2-content">
                 <img src="Img/3-1.png" alt="section-2-content-image" class="section-2-content-image">
-            </div>
+            </div> -->
         </section>
         <section class="section-3">
                 <h2>空気の違い</h2>
@@ -101,6 +101,12 @@
                         </li>
                     </ul>
                 </div>
+                <button class="section-6-carousel-btn section-6-carousel-btn-prev" aria-label="Previous">
+                    <span>‹</span>
+                </button>
+                <button class="section-6-carousel-btn section-6-carousel-btn-next" aria-label="Next">
+                    <span>›</span>
+                </button>
             </div>
             <div class="section-6-content">※詳細は見学時にご案内いたします。</div>
         </section>
@@ -380,6 +386,8 @@
                 const carousel = document.querySelector('.section-6-carousel');
                 const track = document.querySelector('.section-6-carousel-track');
                 const slides = document.querySelectorAll('.section-6-carousel-slide');
+                const prevBtn = document.querySelector('.section-6-carousel-btn-prev');
+                const nextBtn = document.querySelector('.section-6-carousel-btn-next');
                 
                 let currentSlide = 0;
                 let isDragging = false;
@@ -399,6 +407,10 @@
                 
                 // Setup event listeners
                 function setupEventListeners() {
+                    // Button navigation
+                    prevBtn.addEventListener('click', () => goToSlide(currentSlide - 1));
+                    nextBtn.addEventListener('click', () => goToSlide(currentSlide + 1));
+                    
                     // Mouse drag events
                     track.addEventListener('mousedown', dragStart);
                     track.addEventListener('mousemove', drag);
