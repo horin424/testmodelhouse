@@ -1326,6 +1326,7 @@ section {
 
 .section-12-form-submit:hover .section-12-submit-icon {
     transform: translateX(4px);
+    display: flex;
 }
 
 .section-12-submit-icon img {
