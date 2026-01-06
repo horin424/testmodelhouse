@@ -330,7 +330,7 @@ section {
 .section-1-content-1 {
     font-weight:800;
     font-size: 24px;
-    line-height: 50px;
+    line-height: 54px;
     letter-spacing: 1.5px;
     color: #fff;
     border: none;
@@ -343,7 +343,7 @@ section {
     align-items: center;
     margin-left: 10px;
     width: 12px;
-    height: 52px;
+    height: 51px;
 }
 
 .section-2 {
@@ -954,7 +954,7 @@ section {
 }
 
 .section-11-content-1-title:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #3F3A3A;
     transform: scale(1.01);
 }
 
@@ -1000,7 +1000,7 @@ section {
 }
 
 .section-11-content-2-title:hover {
-    background-color: #1a1a1a;
+    background-color: #3F3A3A;
     transform: scale(1.01);
 }
 
@@ -1048,7 +1048,7 @@ section {
 }
 
 .section-11-content-3-title:hover {
-    background-color: #1a1a1a;
+    background-color: #3F3A3A;
     transform: scale(1.01);
 }
 
