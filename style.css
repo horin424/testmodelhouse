@@ -1316,7 +1316,9 @@ section {
 }
 
 .section-12-submit-icon {
-    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 8px;
     height: 12px;
     margin-left: 4px;
