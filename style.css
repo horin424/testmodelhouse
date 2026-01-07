@@ -762,7 +762,7 @@ section {
 .section-9-content-1-image {
     width: 97%;
     margin-top: 16px;
-    margin-left: 12px;
+    width: 335px;
     margin-bottom: 28px;
 }
 
@@ -943,7 +943,7 @@ section {
     cursor: pointer;
     color: #FFFFFF;
     padding: 4px 10px 4px 10px;
-    background-color: #3F3A3A;
+    background-color: rgba(0, 0, 0, 0.7);
     height: 46px;
     display: flex;
     align-items: center;
